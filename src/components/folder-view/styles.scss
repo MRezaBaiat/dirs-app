@@ -1,0 +1,29 @@
+.folders-view-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .touchable{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        >.image{
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        >.arrow{
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+        >.name{
+
+        }
+    }
+    >.children{
+        margin-left: 50px;
+    }
+}
+

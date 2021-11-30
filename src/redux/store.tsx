@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import {foldersReducer} from "./reducers/folders.reducer";
+import {foldersReducer, FoldersReducerType} from "./reducers/folders.reducer";
 import createSagaMiddleware from 'redux-saga';
 import {foldersSaga} from "./sagas/folders.sagas";
 
@@ -13,5 +13,9 @@ const store = configureStore({
 });
 
 sagaMiddleware.run(foldersSaga);
+
+export interface StoreType{
+    foldersReducer: FoldersReducerType
+}
 
 export default store;
