@@ -5,4 +5,5 @@ to run the project simple run `yarn` and then `yarn start`
 
 **Disclaimer**
 
-this project was designed to only demonstrate logic and practices only , as requested . so please do not expect some "OMG" views :) 
+- this project was designed to only demonstrate logic and practices only , as requested . so please do not expect some "OMG" views :) 
+- this project was designed in about 1 hour more or less
